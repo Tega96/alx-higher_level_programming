@@ -4,7 +4,8 @@
 
 """This code checks if an alphabet is lower case"""
 def islower(c):
-    if org(c) >= 97 or org(c) <= 122:
+    """check for lower character"""
+    if ord(c) >= 97 and ord(c) <= 122:
         return True
     else:
         return False
