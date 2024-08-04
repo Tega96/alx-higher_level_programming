@@ -4,12 +4,12 @@
 
 def fizzbuzz():
     """print fizz for multiples of 3, buzz for multiples of 5 and fizzbuzz for multiples of 3 and 5 on range of numbers 0 - 100"""
-    for x in range(0, 101):
-        if x % 3 == 0 and x % 5 == 0:
-            print("FizzBuzz")
-        elif x % 5 == 0:
-            print("Buzz")
+    for x in range(1, 101):
+        if x % (3 * 5) == 0:
+            print('FizzBuzz ')
         elif x % 3 == 0:
-            print("Fizz")
+            print('Fizz ')
+        elif x % 5 == 0:
+            print('buzz ')
         else:
-            print("{}".format(x), end=" ")
+            print('{} '.format(x), end="")
