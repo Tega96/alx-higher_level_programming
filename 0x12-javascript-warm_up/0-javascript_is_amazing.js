@@ -2,5 +2,5 @@
 /**
  * Script to print "JavaScript is Amazing"
  */
-const word = "JavaScript is amazing";
-console.log(word);
+const myVar = "JavaScript is amazing";
+console.log(myVar);
