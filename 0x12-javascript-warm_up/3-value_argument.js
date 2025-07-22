@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-//Script to print the first argument
+// Script to print the first argument
 const [args] = process.argv.slice(2);
 
 if (args === undefined) {
